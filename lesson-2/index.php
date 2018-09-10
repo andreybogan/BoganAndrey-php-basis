@@ -3,8 +3,8 @@ header("Content-type: text/html; charset=utf-8");
 
 // Задание 1.
 
-$a = 6;
-$b = 12;
+$a = (int)6.6;
+$b = (int)12;
 if ($a >= 0 && $b >= 0) {
   echo $a - $b;
 } elseif ($a < 0 && $b < 0) {
