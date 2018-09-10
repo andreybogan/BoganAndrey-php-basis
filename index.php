@@ -11,6 +11,7 @@
   <h1>Домашние задания Богана Андрея к курсу Основы PHP.</h1>
   <ul>
     <li><a href="lesson-1">Урок 1</a></li>
+    <li><a href="lesson-2">Урок 2</a></li>
   </ul>
 </body>
 </html>
