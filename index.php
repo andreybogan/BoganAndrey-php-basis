@@ -12,6 +12,7 @@
   <ul>
     <li><a href="lesson-1">Урок 1</a></li>
     <li><a href="lesson-2">Урок 2</a></li>
+    <li><a href="lesson-3">Урок 3</a></li>
   </ul>
 </body>
 </html>
