@@ -97,20 +97,20 @@ function transliterate($st) {
     'Э' => 'E', 'Ю' => 'Yu', 'Я' => 'Ya',
   );
   // Инициализируем переменную в которую будем собирать преобразованную строку.
-  $arrLatin = null;
+  $newString = null;
   // Разбиваем исходную строку на массив.
   $arrString = preg_split('//u', $st, null, PREG_SPLIT_NO_EMPTY);
   // Обходим массив в цикле и проверяем есть ли совпадения в массиве для замены.
   for ($i = 0; $i < count($arrString); $i++) {
     // Если совпадения есть, то меняем, если нет, то оставляем как есть.
     if (array_key_exists($arrString[$i], $arrAlphabet)) {
-     $arrLatin .= $arrAlphabet[$arrString[$i]];
+      $newString .= $arrAlphabet[$arrString[$i]];
     } else {
-      $arrLatin .= $arrString[$i];
+      $newString .= $arrString[$i];
     }
   }
   // Возвращаем преобразованную строку.
-  return $arrLatin;
+  return $newString;
 }
 
 $st = "Функция выполняет транслитерацию строк с кирилицы на латиницу.";
