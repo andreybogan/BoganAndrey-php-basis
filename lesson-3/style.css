@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 24px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+    border: 1px dotted #eee;
+    border-collapse: collapse;
+}
+
+.wall {
+    background: #112b57;
+}
+
+.traveler {
+    color: #fff;
+}
+
+.up {
+    border: 10px solid #e1e1e1;
+    border-bottom: 10px solid red;
+}
+
+.right {
+    border: 10px solid #e1e1e1;
+    border-left: 10px solid red;
+}
+
+.down {
+    border: 10px solid #e1e1e1;
+    border-top: 10px solid red;
+}
+
+.left {
+    border: 10px solid #e1e1e1;
+    border-right: 10px solid red;
+}
+
+.comment1 {
+    margin: 12px 0 2px 0;
+}
+
+.comment2 {
+    margin: 0;
+}
+
+.comment3 {
+    margin: 2px 0 20px 0;
+}
